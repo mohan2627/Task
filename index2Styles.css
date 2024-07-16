@@ -1,0 +1,77 @@
+body {
+    background-color: whitesmoke;
+}
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    border: 2px solid rgb(235, 234, 234);
+}
+.iconName{
+    position: relative;
+    top: -10px;
+}
+.main {
+    position: relative;
+    top: 150px;
+    cursor: pointer;
+    display: inline-flex;
+}
+.sub1 {
+    margin-left: 50px;
+    height: 300px;
+    width: 250px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(181, 178, 178);
+    border-radius: 1px;
+}
+.sub2 {
+    margin-left: 20px;
+    height: 300px;
+    width: 250px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(172, 166, 166);
+}
+.sub3 {
+    margin-left: 20px;
+    height: 300px;
+    width: 250px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(139, 134, 134);
+}
+.pageName {
+    height: 70px;
+    width: 250;
+    margin-top:23px ; 
+    background-color: white;
+}
+.Hpic {
+    height: 180px;
+    width: 110px;
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-bottom: 20p;
+    background-color: whitesmoke;
+    
+}
+.Fopic {
+    height: 200px;
+    width: 250px;
+}
+.Fspic {
+    height: 200px;
+    width: 250px;
+}
+.sub1:hover {
+    border-color: rgb(182, 182, 228);
+    box-shadow: 6px 6px 20px #672C2C1F;
+}
+.sub2:hover {
+    border-color: rgb(174, 174, 239);
+    box-shadow: 6px 6px 20px #672C2C1F;
+}.sub3:hover {
+    border-color: rgb(181, 181, 237);
+    box-shadow: 6px 6px 20px #672C2C1F;
+}
